@@ -21,7 +21,6 @@ app.get('/', function(req, res) {
 
 const teachers = require('./server/routes/teachers');
 
-
 app.use('/api/v1/teachers', teachers);
 
 // listen for requests

@@ -1,11 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const pupilController = require('../controllers/login');
+const teacherController = require('../controllers/teachers');
 
-router.get('/', pupilController.getAll);
-router.post('/', pupilController.create);
-router.get('/:pupilId', pupilController.getById);
-router.put('/:pupilId', pupilController.updateById);
-router.delete('/:pupilId', pupilController.deleteById);
+router.post('/teacherlogin', teacherController.login);
 
 module.exports = router;

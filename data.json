@@ -1,0 +1,21 @@
+{ 
+    "teachers": [
+      
+      { 
+        "email": "test@test.com",
+        "password": "$2b$10$y2QaDaaLx3B/8X9z6tFFhOFwGlpTbMn1SLen18C1CWiSF/qZ9/giy"
+      },
+      
+      { 
+        "email": "test2@test.com",
+        "password": "password2"
+      },
+      
+      { 
+        "email": "test3@test.com",
+        "password": "password3"
+      }
+
+    ]
+}
+
